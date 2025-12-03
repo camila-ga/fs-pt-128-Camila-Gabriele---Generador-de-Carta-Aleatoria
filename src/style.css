@@ -1,5 +1,36 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+* {
+    padding: 0;
+    margin: 0;
+}
 
-body{
-    background: white;
+
+body {
+    background-color: rgb(5, 154, 5);
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border-color: white;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+}
+
+.card-corazon.h1 {
+    font-size: 6rem;
+    justify-content: space-between;
+}
+
+.card-corazon.end,
+h1 {
+    font-size: 6rem;
+    justify-content: space-between;
+}
+
+h2{
+    color: black;
+    font-size: 6rem;
 }
