@@ -13,24 +13,35 @@ body {
     height: 400px;
     margin: auto;
     margin-top: 150px;
-    border-color: white;
+    border-color: black;
     justify-content: space-between;
     font-family: 'Playfair Display', serif;
     padding: 10px;
+    
 }
 
 .card-corazon.h1 {
     font-size: 6rem;
     justify-content: space-between;
+   
 }
 
 .card-corazon.end,
 h1 {
     font-size: 6rem;
     justify-content: space-between;
+    
 }
 
 h2{
     color: black;
     font-size: 6rem;
+}
+.btn{
+    margin-right: 350px;
+    font-family: 'Playfair Display', serif;
+}
+
+.rojo{
+    color: red;
 }
