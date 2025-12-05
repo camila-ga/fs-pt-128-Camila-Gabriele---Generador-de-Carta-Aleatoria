@@ -11,20 +11,23 @@
 </head>
 
 <body>
-  <div class="card">
+  <div class="card" id="carta-poker">
     <div class="card-corazon" id="card-content">
-      <h1 class="card-corazon position-absolute top-0 start-0" id="palo-arriba">♥</h1>
+      <h1 class="card-corazon position-absolute top-0 start-0" id="palo-arriba">♦</h1>
       <h2 class="position-absolute top-50 start-50 translate-middle" id="numero-carta">5</h2>
-      <h1 class="card-corazon.end position-absolute bottom-0 end-0" id="palo-abajo">♥1</h>
+      <h1 class="card-corazon.end position-absolute bottom-0 end-0" id="palo-abajo">♦</h>
     </div>
   </div>
-  <!-- <button onclick="myClickFunction();"><strong>CARD CHANGE</strong></button> -->
-  <button onclick="myClickFunction();" type="button" class="btn btn-danger position-absolute top-50 end-0 translate-middle-y"><strong>CARD CHANGE
+
+  <button onclick="myClickFunction();" type="button"
+    class="btn btn-danger position-absolute top-50 end-0 translate-middle-y"><strong>CARD CHANGE
     </strong></button>
-
-
-
-
+  <div class="input position-absolute top-40 g-5 end-0 translate-middle-y">
+    <div class="input-group">
+      <input type="text" label="First name" id="widthInput" class="form-control" placeholder="Width">
+      <input type="text" label="Last name" id="heightInput" class="form-control" placeholder="Height">
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -35,4 +38,4 @@
   <script src="app.js"></script>
 </body>
 
-</html>>
+</html>

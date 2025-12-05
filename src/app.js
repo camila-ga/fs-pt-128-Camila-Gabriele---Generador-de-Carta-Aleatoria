@@ -16,6 +16,7 @@ window.myClickFunction = function myClickFunction() {
 
   // const cardContent = document.getElementById("card-content")
   // cardContent.classList.add(color)
+  // comente esta parte porque no me funcionaba el codigo y no logre resolverlo, voy a pedir una mentoria =)
 
 
   const color = document.querySelector("#card-content")
@@ -38,3 +39,19 @@ window.myClickFunction = function myClickFunction() {
   simboloEnd.innerHTML = simboloAleatorio
 
 };
+
+setInterval(myClickFunction, 10000);
+
+const estiloCarta = document.getElementById("carta-poker");
+const widthInput = document.getElementById("widthInput")
+const heightInput = document.getElementById("heightInput")
+
+heightInput.addEventListener('input', function(){
+  const nuevoHeight = this.value;
+  estiloCarta.style.height = nuevoHeight + 'px';
+});
+
+widthInput.addEventListener('input', function () {
+  const nuevawidth = this.value;
+  estiloCarta.style.width = nuevawidth + 'px';
+});
